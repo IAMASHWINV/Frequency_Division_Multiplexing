@@ -18,8 +18,6 @@ def FDM(msgfq, carfc, mod_tech):
         multmsg += mod_tmp
         ut.append(mod_tmp)
     plt.figure(figsize=(10, 10))
-    axsms = []
-    axmod = []
     for i in range(4):
         cplot(plt.subplot2grid((4, 5), (i, 0)), tm, mt[i], '', '', '')
         cplot(plt.subplot2grid((4, 5), (i, 1)), tm, ct[i], '', '', '')
