@@ -1,4 +1,6 @@
 from scipy.signal import butter, buttord, filtfilt
+import numpy as np
+import matplotlib.pyplot as plt
 
 
 def cplot(ax, t, s, xl, yl, tit):
