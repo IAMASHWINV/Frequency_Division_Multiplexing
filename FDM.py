@@ -53,4 +53,4 @@ def RetFDM(multmsg, msgfq, carfc, mod_tech, tm):
     plt.tight_layout()
 
 
-print(FDM([1, 2, 3, 4], [1000, 2000, 3000, 4000], [ssb, dmssb]))
+#print(FDM([1, 2, 3, 4], [1000, 2000, 3000, 4000], [ssb, dmssb]))
