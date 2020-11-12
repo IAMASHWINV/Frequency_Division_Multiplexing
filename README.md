@@ -1,1 +1,1 @@
-Implement different types of amplitude modulation using python
+Implement Frequency Division Multiplexing for different modulation techniques (DSB-SC, SSB and conventional AM) using python.
